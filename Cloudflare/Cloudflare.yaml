@@ -16,6 +16,10 @@ payload:
   - DOMAIN-SUFFIX,cftest6.cn
   - DOMAIN-SUFFIX,cftest7.com
   - DOMAIN-SUFFIX,cftest8.com
+  - DOMAIN-SUFFIX,sehuatang.net
+  - DOMAIN-SUFFIX,sehuatang.org
+  - DOMAIN-SUFFIX,missav123.com
+  - DOMAIN-SUFFIX,surrit.com
   - DOMAIN-SUFFIX,cloudflare-cn.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
