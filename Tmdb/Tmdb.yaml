@@ -7,3 +7,4 @@
 payload:
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,api.thetvdb.com
