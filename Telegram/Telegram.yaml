@@ -13,6 +13,7 @@
 payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
+  - DOMAIN-SUFFIX,laowangfip372.vip
   - DOMAIN-SUFFIX,sehuatang.net
   - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,missav123.com
