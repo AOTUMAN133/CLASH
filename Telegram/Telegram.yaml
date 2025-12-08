@@ -13,6 +13,7 @@
 payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
+  - DOMAIN-SUFFIX,emby.as174.de
   - DOMAIN-SUFFIX,2048.info
   - DOMAIN-SUFFIX,laowangfip372.vip
   - DOMAIN-SUFFIX,sehuatang.net
