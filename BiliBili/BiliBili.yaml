@@ -141,3 +141,6 @@ payload:
   - DOMAIN-SUFFIX,Douyin.com
   - DOMAIN-SUFFIX,douyinpay.com
   - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,douyin.com # 抖音主域直连
+  - DOMAIN-SUFFIX,v.douyin.com # 直播短链直连
+  - DOMAIN-SUFFIX,bytedance.com # 字节相关域名走代理
