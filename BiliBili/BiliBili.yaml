@@ -137,3 +137,6 @@ payload:
   - PROCESS-NAME,com.bilibili.comic.intl
   - PROCESS-NAME,tv.danmaku.bili
   - PROCESS-NAME,tv.danmaku.bilibilihd
+  - DOMAIN-SUFFIX,realapp.xin
+  - DOMAIN-SUFFIX,Douyin.com
+  - DOMAIN-SUFFIX,douyinpay.com
