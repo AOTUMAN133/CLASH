@@ -8,6 +8,8 @@
 # TOTAL: 65
 payload:
   - DOMAIN-SUFFIX,cf-ipfs.com
+  - DOMAIN-SUFFIX,sehuatang.net
+  - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,cf-ns.com
   - DOMAIN-SUFFIX,cf-ns.net
   - DOMAIN-SUFFIX,cf-ns.site
