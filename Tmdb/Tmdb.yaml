@@ -6,6 +6,7 @@
 # TOTAL: 2
 payload:
   - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,api.themoviedb.org
   - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,hdhive.com
   - DOMAIN-SUFFIX,image.tmdb.org
