@@ -12,6 +12,7 @@
 # TOTAL: 46
 payload:
   - DOMAIN,api.imem.app
+  - DOMAIN,greasyfork.org
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,emby.as174.de
   - DOMAIN-SUFFIX,2048.info
