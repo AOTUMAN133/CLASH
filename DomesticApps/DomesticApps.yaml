@@ -885,6 +885,7 @@ payload:
   - DOMAIN-KEYWORD,img
   - DOMAIN-KEYWORD,video
   - DOMAIN-KEYWORD,stream
+  - DOMAIN-SUFFIX,520533.xyz
   - DOMAIN-SUFFIX,tracker.m-team.cc
   - DOMAIN-SUFFIX,tracker.zhuque.in
   - DOMAIN-SUFFIX,tracker.totheglory.im
