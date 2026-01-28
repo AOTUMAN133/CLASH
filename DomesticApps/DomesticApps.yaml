@@ -4,42 +4,115 @@ payload:
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,douyin-sign.byteoversea.com
+  - DOMAIN-SUFFIX,douyin-secure.byteoversea.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-KEYWORD,byteimg
   
   # 小红书
   - DOMAIN-SUFFIX,xiaohongshu.com
   - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xhsstatic.com
+  - DOMAIN-SUFFIX,xhcdn.net
+  - DOMAIN-SUFFIX,xiaohongshu.co
   
   # 快手
   - DOMAIN-SUFFIX,kuaishou.com
   - DOMAIN-SUFFIX,gifshow.com
   - DOMAIN-SUFFIX,ksadn.com
+  - DOMAIN-SUFFIX,kuaishouzt.com
+  - DOMAIN-KEYWORD,kwai
   
   # 微博
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-SUFFIX,sinaimg.cn
+  - DOMAIN-SUFFIX,sina.com.cn
   
   # 微信
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weixin.qq.com
+  - DOMAIN-SUFFIX,wximg.wxopen.com
+  - DOMAIN-SUFFIX,qpic.cn
   
   # QQ
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qzone.qq.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencentmind.com
   
   # 淘宝/阿里
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,aliimg.com
+  - DOMAIN-SUFFIX,tbcdn.cn
+  - DOMAIN-SUFFIX,tbcdn.com
   
   # 拼多多
   - DOMAIN-SUFFIX,pinduoduo.com
   - DOMAIN-SUFFIX,pddpic.com
+  - DOMAIN-SUFFIX,pddimg.com
   
   # 美团
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
+  - DOMAIN-SUFFIX,dpfile.com
+  - DOMAIN-SUFFIX,meihua.info
   
-  # IP段
+  # 京东
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,jd.hk
+  - DOMAIN-SUFFIX,jdpay.com
+  - DOMAIN-SUFFIX,jdimg.com
+  
+  # 抖音商城/小黄车相关
+  - DOMAIN-SUFFIX,ecvv.com
+  - DOMAIN-SUFFIX,shop-ads.com
+  - DOMAIN-SUFFIX,shopee.cn
+  - DOMAIN-SUFFIX,shopee.com.my
+  - DOMAIN-SUFFIX,shopee.sg
+  - DOMAIN-SUFFIX,shopee.co.id
+  - DOMAIN-SUFFIX,shopee.ph
+  - DOMAIN-SUFFIX,shopee.th
+  - DOMAIN-SUFFIX,shopee.vn
+  
+  # 直播相关
+  - DOMAIN-SUFFIX,huya.com
+  - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,biliimg.com
+  
+  # 抖音支付/商业
+  - DOMAIN-SUFFIX,douyinpaysdk.com
+  - DOMAIN-SUFFIX,pay.douyin.com
+  - DOMAIN-SUFFIX,sd.douyin.com
+  - DOMAIN-SUFFIX,live.douyin.com
+  - DOMAIN-SUFFIX,livecut.douyin.com
+  - DOMAIN-SUFFIX,effect-resource.bytecdn.cn
+  
+  # 其他国内常用应用
+  - DOMAIN-SUFFIX,netease.com
+  - DOMAIN-SUFFIX,163.com
+  - DOMAIN-SUFFIX,126.com
+  - DOMAIN-SUFFIX,yeah.net
+  - DOMAIN-SUFFIX,chinasoftwarecorp.com
+  - DOMAIN-SUFFIX,sogou.com
+  - DOMAIN-SUFFIX,so.com
+  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,baidubce.com
+  - DOMAIN-SUFFIX,bcebos.com
+  
+  # IP段（抖音、腾讯等常用国内IP）
   - IP-CIDR,110.249.200.0/22
   - IP-CIDR,203.119.200.0/22
+  - IP-CIDR,180.84.0.0/16
+  - IP-CIDR,106.55.0.0/16
+  - IP-CIDR,129.226.0.0/16
+  - IP-CIDR,111.161.0.0/16
+  - IP-CIDR,220.165.0.0/16
+
