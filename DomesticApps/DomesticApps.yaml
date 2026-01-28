@@ -1,0 +1,45 @@
+payload:
+  # 抖音
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  
+  # 小红书
+  - DOMAIN-SUFFIX,xiaohongshu.com
+  - DOMAIN-SUFFIX,xhscdn.com
+  - DOMAIN-SUFFIX,xhsstatic.com
+  
+  # 快手
+  - DOMAIN-SUFFIX,kuaishou.com
+  - DOMAIN-SUFFIX,gifshow.com
+  - DOMAIN-SUFFIX,ksadn.com
+  
+  # 微博
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibo.cn
+  
+  # 微信
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,weixin.qq.com
+  
+  # QQ
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qzone.qq.com
+  
+  # 淘宝/阿里
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alibaba.com
+  
+  # 拼多多
+  - DOMAIN-SUFFIX,pinduoduo.com
+  - DOMAIN-SUFFIX,pddpic.com
+  
+  # 美团
+  - DOMAIN-SUFFIX,meituan.com
+  - DOMAIN-SUFFIX,meituan.net
+  
+  # IP段
+  - IP-CIDR,110.249.200.0/22
+  - IP-CIDR,203.119.200.0/22
