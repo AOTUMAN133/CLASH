@@ -1,13 +1,11 @@
 payload:
   # ========================================
-  # 1. 抖音 & 抖音商城相关（含小黄车）
+  # 1. 抖音 & 字节跳动全系列
   # ========================================
-  # 主域名
+  # 抖音主域名
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyin.co
   - DOMAIN-SUFFIX,douyinstatic.com
-  
-  # CDN & 资源域名
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinvod.com
   - DOMAIN-SUFFIX,douyinpic.com
@@ -26,15 +24,7 @@ payload:
   - DOMAIN-SUFFIX,shopee.th
   - DOMAIN-SUFFIX,shopee.vn
   
-  # 字节跳动通用域名
-  - DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-SUFFIX,bytecdn.cn
-  - DOMAIN-SUFFIX,bytedance.com
-  - DOMAIN-SUFFIX,bytedance.net
-  - DOMAIN-SUFFIX,bytedanceapi.com
-  - DOMAIN-SUFFIX,bdtns.com
-  
-  # 抖音支付/购物相关
+  # 抖音相关应用
   - DOMAIN-SUFFIX,douyinpaysdk.com
   - DOMAIN-SUFFIX,pay.douyin.com
   - DOMAIN-SUFFIX,sd.douyin.com
@@ -44,17 +34,74 @@ payload:
   - DOMAIN-SUFFIX,commerce-api.douyin.com
   - DOMAIN-SUFFIX,aweme.snssdk.com
   
-  # 抖音火山小视频
-  - DOMAIN-SUFFIX,huoshan.com
-  - DOMAIN-SUFFIX,huoshanzhibo.com
-  
-  # Keyword 匹配
+  # 字节跳动通用
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,bytedance.net
+  - DOMAIN-SUFFIX,bytedanceapi.com
+  - DOMAIN-SUFFIX,bdtns.com
   - DOMAIN-KEYWORD,douyin
   - DOMAIN-KEYWORD,byteimg
   - DOMAIN-KEYWORD,snssdk
   
+  # 西瓜视频
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  
+  # 火山小视频
+  - DOMAIN-SUFFIX,huoshan.com
+  - DOMAIN-SUFFIX,huoshanzhibo.com
+  
+  # 今日头条
+  - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,toutiaoimg.com
+  - DOMAIN-SUFFIX,toutiaoimg.net
+  - DOMAIN-KEYWORD,toutiao
+  
   # ========================================
-  # 2. 小红书相关
+  # 2. 皮皮虾 & 皮皮搞笑 & 相关平台
+  # ========================================
+  # 皮皮虾（GIF分享）
+  - DOMAIN-SUFFIX,ppsec.com
+  - DOMAIN-SUFFIX,ppsecimg.com
+  - DOMAIN-SUFFIX,ppsweb.com
+  - DOMAIN-SUFFIX,ppsimg.com
+  - DOMAIN-SUFFIX,ppsimg.net
+  - DOMAIN-SUFFIX,ppssz.com
+  - DOMAIN-SUFFIX,ppscdn.com
+  - DOMAIN-KEYWORD,ppsec
+  
+  # 皮皮搞笑
+  - DOMAIN-SUFFIX,ppgaoxiao.com
+  - DOMAIN-SUFFIX,ppgaoxiao.cn
+  - DOMAIN-SUFFIX,ppgx.com
+  - DOMAIN-SUFFIX,gaoxiaoimg.com
+  - DOMAIN-SUFFIX,gaoxiao.pipixia.com
+  
+  # ========================================
+  # 3. 全民小视频 & 极速版系列
+  # ========================================
+  # 全民小视频
+  - DOMAIN-SUFFIX,quanminsxp.com
+  - DOMAIN-SUFFIX,qmsxp.com
+  - DOMAIN-SUFFIX,qmxvideo.com
+  - DOMAIN-SUFFIX,quanmin.video
+  
+  # 抖音极速版
+  - DOMAIN-SUFFIX,jisuduyin.com
+  - DOMAIN-SUFFIX,douyinjx.com
+  
+  # 快手极速版
+  - DOMAIN-SUFFIX,kuaishoujsx.com
+  - DOMAIN-SUFFIX,ksjs.com
+  
+  # 全民K歌
+  - DOMAIN-SUFFIX,kg.qq.com
+  - DOMAIN-SUFFIX,kgsong.qq.com
+  
+  # ========================================
+  # 4. 小红书全系列
   # ========================================
   - DOMAIN-SUFFIX,xiaohongshu.com
   - DOMAIN-SUFFIX,xiaohongshu.co
@@ -71,7 +118,7 @@ payload:
   - DOMAIN-KEYWORD,xiaohongshu
   
   # ========================================
-  # 3. 快手相关
+  # 5. 快手全系列
   # ========================================
   - DOMAIN-SUFFIX,kuaishou.com
   - DOMAIN-SUFFIX,kuaishouzt.com
@@ -87,7 +134,7 @@ payload:
   - DOMAIN-KEYWORD,kuaishou
   
   # ========================================
-  # 4. 微博相关
+  # 6. 微博全系列
   # ========================================
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weibo.cn
@@ -104,7 +151,25 @@ payload:
   - DOMAIN-KEYWORD,sinaimg
   
   # ========================================
-  # 5. 微信相关
+  # 7. 微视 & 秒拍 & 美拍
+  # ========================================
+  # 微视
+  - DOMAIN-SUFFIX,weishi.qq.com
+  - DOMAIN-SUFFIX,weishi.com
+  - DOMAIN-SUFFIX,weishiimg.com
+  - DOMAIN-SUFFIX,weishiv.qq.com
+  
+  # 秒拍
+  - DOMAIN-SUFFIX,miaopai.com
+  - DOMAIN-SUFFIX,miaopaicdn.com
+  
+  # 美拍
+  - DOMAIN-SUFFIX,meipai.com
+  - DOMAIN-SUFFIX,meipaicdn.com
+  - DOMAIN-SUFFIX,meipai.mogucdn.com
+  
+  # ========================================
+  # 8. 微信全系列
   # ========================================
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weixin.qq.com
@@ -114,14 +179,45 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,weixinbridge.com
   - DOMAIN-SUFFIX,weixin.com
-  - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,tencentmind.com
-  - DOMAIN-SUFFIX,qq.com
   - DOMAIN-KEYWORD,weixin
   - DOMAIN-KEYWORD,wechat
   
+  # 微信支付
+  - DOMAIN-SUFFIX,mch.weixin.qq.com
+  - DOMAIN-SUFFIX,wxpay.wximg.cn
+  - DOMAIN-SUFFIX,pay.weixin.qq.com
+  - DOMAIN-SUFFIX,h5.pay.qq.com
+  
   # ========================================
-  # 6. QQ & 腾讯系列
+  # 9. 企业应用系列
+  # ========================================
+  # 钉钉
+  - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,dtstack.com
+  - DOMAIN-SUFFIX,dingoa.com
+  - DOMAIN-SUFFIX,aliwork.com
+  
+  # 企业微信
+  - DOMAIN-SUFFIX,work.weixin.qq.com
+  - DOMAIN-SUFFIX,qweeapp.qq.com
+  - DOMAIN-SUFFIX,wwapp.qq.com
+  
+  # 飞书
+  - DOMAIN-SUFFIX,feishu.cn
+  - DOMAIN-SUFFIX,larksuite.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  
+  # 腾讯文档
+  - DOMAIN-SUFFIX,docs.qq.com
+  - DOMAIN-SUFFIX,tencent-docs.com
+  
+  # 金山文档
+  - DOMAIN-SUFFIX,kdocs.cn
+  - DOMAIN-SUFFIX,kingsoft.cn
+  - DOMAIN-SUFFIX,kingsoft.com
+  
+  # ========================================
+  # 10. QQ & 腾讯系列
   # ========================================
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qzone.qq.com
@@ -137,12 +233,17 @@ payload:
   - DOMAIN-SUFFIX,myqqjd.com
   - DOMAIN-SUFFIX,qqgamezone.com
   - DOMAIN-KEYWORD,tencent
-  - DOMAIN-KEYWORD,qq.com
+  
+  # QQ音乐
+  - DOMAIN-SUFFIX,qq.music.tc.qq.com
+  - DOMAIN-SUFFIX,y.qq.com
+  - DOMAIN-SUFFIX,music.qq.com
+  - DOMAIN-SUFFIX,kugou.com
+  - DOMAIN-SUFFIX,kuwo.cn
   
   # ========================================
-  # 7. 淘宝 & 支付宝相关
+  # 11. 淘宝 & 支付宝全系列
   # ========================================
-  # 淘宝主域名
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,taobao.co
   - DOMAIN-SUFFIX,taobaocdn.com
@@ -175,7 +276,7 @@ payload:
   - DOMAIN-KEYWORD,aliyun
   
   # ========================================
-  # 8. 京东相关
+  # 12. 京东全系列
   # ========================================
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,jd.hk
@@ -192,7 +293,7 @@ payload:
   - DOMAIN-KEYWORD,jd.com
   
   # ========================================
-  # 9. 拼多多相关
+  # 13. 拼多多全系列
   # ========================================
   - DOMAIN-SUFFIX,pinduoduo.com
   - DOMAIN-SUFFIX,pddpic.com
@@ -204,7 +305,7 @@ payload:
   - DOMAIN-KEYWORD,pinduoduo
   
   # ========================================
-  # 10. 美团 & 点评相关
+  # 14. 美团 & 点评全系列
   # ========================================
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
@@ -217,7 +318,7 @@ payload:
   - DOMAIN-KEYWORD,meituan
   
   # ========================================
-  # 11. B站 & 哔哩哔哩
+  # 15. B站 & 哔哩哔哩全系列
   # ========================================
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,bilibili.cn
@@ -228,10 +329,14 @@ payload:
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,acgvideo.cn
   - DOMAIN-SUFFIX,b23.tv
+  
+  # 哔哩哔哩漫画
+  - DOMAIN-SUFFIX,bilimanga.com
+  - DOMAIN-SUFFIX,bilibilicomics.com
   - DOMAIN-KEYWORD,bilibili
   
   # ========================================
-  # 12. 网易相关（网易云音乐、游戏等）
+  # 16. 网易全系列
   # ========================================
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,netease.cn
@@ -251,81 +356,7 @@ payload:
   - DOMAIN-KEYWORD,163
   
   # ========================================
-  # 13. 搜狐相关
-  # ========================================
-  - DOMAIN-SUFFIX,sohu.com
-  - DOMAIN-SUFFIX,sohu.com.cn
-  - DOMAIN-SUFFIX,sohucs.com
-  - DOMAIN-SUFFIX,sohunews.com
-  - DOMAIN-SUFFIX,itc.cn
-  - DOMAIN-SUFFIX,v.sohu.com
-  - DOMAIN-KEYWORD,sohu
-  
-  # ========================================
-  # 14. 搜狗 & 360搜索
-  # ========================================
-  - DOMAIN-SUFFIX,sogou.com
-  - DOMAIN-SUFFIX,sogoucdn.com
-  - DOMAIN-SUFFIX,sogouvideo.com
-  - DOMAIN-SUFFIX,so.com
-  - DOMAIN-SUFFIX,qihoo.com
-  - DOMAIN-SUFFIX,qhimg.com
-  - DOMAIN-SUFFIX,qhstatic.com
-  - DOMAIN-SUFFIX,360.com
-  - DOMAIN-SUFFIX,360.cn
-  - DOMAIN-SUFFIX,360safe.com
-  - DOMAIN-KEYWORD,sogou
-  
-  # ========================================
-  # 15. 百度相关
-  # ========================================
-  - DOMAIN-SUFFIX,baidu.com
-  - DOMAIN-SUFFIX,baidu.cn
-  - DOMAIN-SUFFIX,baidubce.com
-  - DOMAIN-SUFFIX,bcebos.com
-  - DOMAIN-SUFFIX,baiducdn.com
-  - DOMAIN-SUFFIX,baidupcs.com
-  - DOMAIN-SUFFIX,baiduyun.com
-  - DOMAIN-SUFFIX,baidutranslate.com
-  - DOMAIN-SUFFIX,bdimg.com
-  - DOMAIN-SUFFIX,bdstatic.com
-  - DOMAIN-SUFFIX,bdcdn.com
-  - DOMAIN-SUFFIX,baidutranslate.com
-  - DOMAIN-SUFFIX,tieba.com
-  - DOMAIN-SUFFIX,zhidao.baidu.com
-  - DOMAIN-KEYWORD,baidu
-  
-  # ========================================
-  # 16. 知乎相关
-  # ========================================
-  - DOMAIN-SUFFIX,zhihu.com
-  - DOMAIN-SUFFIX,zhihu.co
-  - DOMAIN-SUFFIX,zhimg.com
-  - DOMAIN-SUFFIX,zhinan.com
-  - DOMAIN-SUFFIX,zhihuishu.com
-  - DOMAIN-SUFFIX,knowledge.baidu.com
-  - DOMAIN-KEYWORD,zhihu
-  
-  # ========================================
-  # 17. 小视频平台
-  # ========================================
-  # 火山小视频
-  - DOMAIN-SUFFIX,huoshan.com
-  - DOMAIN-SUFFIX,huoshanzhibo.com
-  
-  # 西瓜视频
-  - DOMAIN-SUFFIX,ixigua.com
-  - DOMAIN-SUFFIX,ixiguavideo.com
-  
-  # 今日头条
-  - DOMAIN-SUFFIX,toutiao.com
-  - DOMAIN-SUFFIX,toutiaoimg.com
-  - DOMAIN-SUFFIX,toutiaoimg.net
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-KEYWORD,toutiao
-  
-  # ========================================
-  # 18. 直播平台
+  # 17. 直播平台
   # ========================================
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyacdn.com
@@ -335,16 +366,11 @@ payload:
   - DOMAIN-SUFFIX,yy.com
   - DOMAIN-SUFFIX,yyimg.com
   - DOMAIN-SUFFIX,yycdn.com
-  - DOMAIN-SUFFIX,pps.tv
-  - DOMAIN-SUFFIX,iqiyi.com
-  - DOMAIN-SUFFIX,qiyi.com
-  - DOMAIN-SUFFIX,iqiyipic.com
-  - DOMAIN-SUFFIX,iqiyicdnunknow.iqiyi.com
   - DOMAIN-KEYWORD,douyu
   - DOMAIN-KEYWORD,huya
   
   # ========================================
-  # 19. 视频平台（长视频）
+  # 18. 视频平台（长视频）
   # ========================================
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,qiyi.com
@@ -362,69 +388,157 @@ payload:
   - DOMAIN-KEYWORD,youku
   
   # ========================================
-  # 20. 微信支付相关
+  # 19. 搜狐系列
   # ========================================
-  - DOMAIN-SUFFIX,mch.weixin.qq.com
-  - DOMAIN-SUFFIX,wxpay.wximg.cn
-  - DOMAIN-SUFFIX,pay.weixin.qq.com
-  - DOMAIN-SUFFIX,h5.pay.qq.com
-  - DOMAIN-SUFFIX,h5api.pay.qq.com
-  - DOMAIN-SUFFIX,payapp.qq.com
-  - DOMAIN-SUFFIX,h5.pay.qq.com
+  - DOMAIN-SUFFIX,sohu.com
+  - DOMAIN-SUFFIX,sohu.com.cn
+  - DOMAIN-SUFFIX,sohucs.com
+  - DOMAIN-SUFFIX,sohunews.com
+  - DOMAIN-SUFFIX,itc.cn
+  - DOMAIN-SUFFIX,v.sohu.com
+  - DOMAIN-KEYWORD,sohu
   
   # ========================================
-  # 21. 其他支付相关
+  # 20. 搜狗 & 360搜索 & 百度
   # ========================================
-  - DOMAIN-SUFFIX,unionpayonline.com
-  - DOMAIN-SUFFIX,95516.com
-  - DOMAIN-SUFFIX,chinapnr.com
-  - DOMAIN-SUFFIX,cnpay.com
-  - DOMAIN-SUFFIX,yeepay.com
-  - DOMAIN-SUFFIX,99bill.com
-  - DOMAIN-SUFFIX,15tianquan.com
-  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,sogou.com
+  - DOMAIN-SUFFIX,sogoucdn.com
+  - DOMAIN-SUFFIX,sogouvideo.com
+  - DOMAIN-SUFFIX,so.com
+  - DOMAIN-SUFFIX,qihoo.com
+  - DOMAIN-SUFFIX,qhimg.com
+  - DOMAIN-SUFFIX,qhstatic.com
+  - DOMAIN-SUFFIX,360.com
+  - DOMAIN-SUFFIX,360.cn
+  - DOMAIN-SUFFIX,360safe.com
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,baidu.cn
+  - DOMAIN-SUFFIX,baidubce.com
+  - DOMAIN-SUFFIX,bcebos.com
+  - DOMAIN-SUFFIX,baiducdn.com
+  - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,baiduyun.com
+  - DOMAIN-SUFFIX,baidutranslate.com
+  - DOMAIN-SUFFIX,bdimg.com
+  - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,bdcdn.com
+  - DOMAIN-SUFFIX,tieba.com
+  - DOMAIN-SUFFIX,zhidao.baidu.com
+  - DOMAIN-KEYWORD,baidu
   
   # ========================================
-  # 22. 社交应用
+  # 21. 知乎全系列
   # ========================================
-  # QQ音乐
-  - DOMAIN-SUFFIX,qq.music.tc.qq.com
-  - DOMAIN-SUFFIX,y.qq.com
-  - DOMAIN-SUFFIX,music.qq.com
-  
-  # 钉钉
-  - DOMAIN-SUFFIX,dingtalk.com
-  - DOMAIN-SUFFIX,dtstack.com
-  
-  # 企业微信
-  - DOMAIN-SUFFIX,work.weixin.qq.com
-  - DOMAIN-SUFFIX,qweeapp.qq.com
+  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,zhihu.co
+  - DOMAIN-SUFFIX,zhimg.com
+  - DOMAIN-SUFFIX,zhinan.com
+  - DOMAIN-SUFFIX,zhihuishu.com
+  - DOMAIN-SUFFIX,knowledge.baidu.com
+  - DOMAIN-KEYWORD,zhihu
   
   # ========================================
-  # 23. 游戏平台
+  # 22. 其他短视频 & 内容平台
   # ========================================
-  - DOMAIN-SUFFIX,tgame.qq.com
-  - DOMAIN-SUFFIX,moba.qq.com
-  - DOMAIN-SUFFIX,dnf.qq.com
-  - DOMAIN-SUFFIX,qqgame.qq.com
-  - DOMAIN-SUFFIX,webcdn.qq.com
-  - DOMAIN-SUFFIX,tencentmusic.com
-  - DOMAIN-SUFFIX,game.qq.com
+  # 小影
+  - DOMAIN-SUFFIX,filmak.com
+  - DOMAIN-SUFFIX,xiaoyingvideo.com
+  
+  # 小红圈
+  - DOMAIN-SUFFIX,xiaohongshu.circle
+  - DOMAIN-SUFFIX,redcircle.cn
+  
+  # 绿洲
+  - DOMAIN-SUFFIX,greenoasis.com
+  - DOMAIN-SUFFIX,iqiyi.com
+  
+  # 虎扑
+  - DOMAIN-SUFFIX,hupu.com
+  - DOMAIN-SUFFIX,hupucdn.com
+  - DOMAIN-SUFFIX,hupu.cloud
+  - DOMAIN-SUFFIX,hupu.info
+  - DOMAIN-KEYWORD,hupu
+  
+  # 得物（原毒APP）
+  - DOMAIN-SUFFIX,dewu.com
+  - DOMAIN-SUFFIX,dewucdn.com
+  - DOMAIN-SUFFIX,dewulive.com
+  - DOMAIN-KEYWORD,dewu
+  
+  # 小红书购物
+  - DOMAIN-SUFFIX,xiaohongshu.shop
+  - DOMAIN-SUFFIX,xiaohongshu.mall
+  
+  # ========================================
+  # 23. 文件存储 & 网盘
+  # ========================================
+  - DOMAIN-SUFFIX,115.com
+  - DOMAIN-SUFFIX,115img.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,qiniu.com
+  - DOMAIN-SUFFIX,qiniucdn.com
+  - DOMAIN-SUFFIX,upyun.com
+  - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,teambition.net
+  - DOMAIN-SUFFIX,teambition.com
+  - DOMAIN-SUFFIX,kdocs.cn
+  - DOMAIN-SUFFIX,kingsoft.cn
+  
+  # 百度网盘
+  - DOMAIN-SUFFIX,pan.baidu.com
+  - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,bdydns.b.qq.com
+  
+  # 腾讯微云
+  - DOMAIN-SUFFIX,weiyun.com
+  - DOMAIN-SUFFIX,vip.qq.com
+  
+  # 360云盘
+  - DOMAIN-SUFFIX,yunpan.360.com
+  - DOMAIN-SUFFIX,yunpan.360.cn
+  
+  # 迅雷
+  - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-SUFFIX,kankan.com
+  - DOMAIN-SUFFIX,kuaiche.com
+  
+  # ========================================
+  # 24. 浏览器 & 应用市场
+  # ========================================
+  # 浏览器
+  - DOMAIN-SUFFIX,qqbrowser.com
+  - DOMAIN-SUFFIX,qqbrowser.qq.com
   - DOMAIN-SUFFIX,uc.qq.com
-  - DOMAIN-SUFFIX,glgame.qq.com
-  - DOMAIN-SUFFIX,gameim.qq.com
+  - DOMAIN-SUFFIX,ucweb.com
+  - DOMAIN-SUFFIX,uc.cn
+  - DOMAIN-SUFFIX,liebao.cn
+  - DOMAIN-SUFFIX,liebaoimg.com
+  - DOMAIN-SUFFIX,sogou.com
+  
+  # 应用市场
+  - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-SUFFIX,qzone.qq.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,huawei.com
+  - DOMAIN-SUFFIX,xiaomi.com
+  - DOMAIN-SUFFIX,oppo.com
+  - DOMAIN-SUFFIX,vivo.com
+  - DOMAIN-SUFFIX,meizu.com
+  - DOMAIN-SUFFIX,samsung.com
   
   # ========================================
-  # 24. 输入法 & 输入类应用
+  # 25. 安全卫士 & 管理工具
   # ========================================
   - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,qihucdn.com
-  - DOMAIN-SUFFIX,pinyinmania.com
-  - DOMAIN-SUFFIX,sougou.com
-  - DOMAIN-SUFFIX,baidu.shurufa.com
+  - DOMAIN-SUFFIX,360.com
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,kingsoft.com
+  - DOMAIN-SUFFIX,kaspersky.com
   
   # ========================================
-  # 25. 电子书 & 阅读
+  # 26. 电子书 & 阅读
   # ========================================
   - DOMAIN-SUFFIX,qidian.com
   - DOMAIN-SUFFIX,zongheng.com
@@ -433,9 +547,12 @@ payload:
   - DOMAIN-SUFFIX,yuewen.com
   - DOMAIN-SUFFIX,webnovel.com
   - DOMAIN-SUFFIX,cynovel.com
+  - DOMAIN-SUFFIX,wattpad.com
+  - DOMAIN-SUFFIX,manhuapai.com
+  - DOMAIN-SUFFIX,manhuaren.com
   
   # ========================================
-  # 26. 新闻 & 资讯
+  # 27. 新闻 & 资讯
   # ========================================
   - DOMAIN-SUFFIX,ifeng.com
   - DOMAIN-SUFFIX,ifengimg.com
@@ -447,10 +564,11 @@ payload:
   - DOMAIN-SUFFIX,news.sohu.com
   - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,eastday.com
+  - DOMAIN-SUFFIX,jinse.com
   - DOMAIN-KEYWORD,news
   
   # ========================================
-  # 27. 旅游 & 酒店
+  # 28. 旅游 & 酒店
   # ========================================
   - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,qunar.com
@@ -461,9 +579,10 @@ payload:
   - DOMAIN-SUFFIX,booking.com
   - DOMAIN-SUFFIX,fliggy.com
   - DOMAIN-SUFFIX,alitrip.com
+  - DOMAIN-SUFFIX,tianxun.com
   
   # ========================================
-  # 28. 外卖 & 配送
+  # 29. 外卖 & 配送 & 到家服务
   # ========================================
   - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,eleme.io
@@ -474,9 +593,11 @@ payload:
   - DOMAIN-SUFFIX,zto.com
   - DOMAIN-SUFFIX,ems.com.cn
   - DOMAIN-SUFFIX,xtb.aio.com
+  - DOMAIN-SUFFIX,jd.daojia.com
+  - DOMAIN-SUFFIX,daojia.com
   
   # ========================================
-  # 29. 健康 & 医疗
+  # 30. 健康 & 医疗
   # ========================================
   - DOMAIN-SUFFIX,dxy.com
   - DOMAIN-SUFFIX,dxycdn.com
@@ -485,9 +606,11 @@ payload:
   - DOMAIN-SUFFIX,120ask.com
   - DOMAIN-SUFFIX,zcool.com.cn
   - DOMAIN-SUFFIX,hellofresh.com.cn
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,aliyun.com
   
   # ========================================
-  # 30. 教育 & 在线学习
+  # 31. 教育 & 学习 & 招聘
   # ========================================
   - DOMAIN-SUFFIX,duolingo.com
   - DOMAIN-SUFFIX,xuetangx.com
@@ -501,9 +624,13 @@ payload:
   - DOMAIN-SUFFIX,eduyun.cn
   - DOMAIN-SUFFIX,yunketang.com
   - DOMAIN-SUFFIX,k12.com.cn
+  - DOMAIN-SUFFIX,xueersi.com
+  - DOMAIN-SUFFIX,100tal.com
+  - DOMAIN-SUFFIX,tal.com
+  - DOMAIN-SUFFIX,csdn.net
   
   # ========================================
-  # 31. 金融 & 理财
+  # 32. 金融 & 理财 & 股票
   # ========================================
   - DOMAIN-SUFFIX,lufax.com
   - DOMAIN-SUFFIX,licai.com
@@ -514,20 +641,24 @@ payload:
   - DOMAIN-SUFFIX,100credit.com.cn
   - DOMAIN-SUFFIX,yinhang.com
   - DOMAIN-SUFFIX,fund.eastmoney.com
+  - DOMAIN-SUFFIX,eastmoney.com
+  - DOMAIN-SUFFIX,guba.eastmoney.com
+  - DOMAIN-SUFFIX,stock.qq.com
+  - DOMAIN-SUFFIX,ths.com.cn
   
   # ========================================
-  # 32. 房产
+  # 33. 房产
   # ========================================
   - DOMAIN-SUFFIX,lianjia.com
   - DOMAIN-SUFFIX,beike.com
   - DOMAIN-SUFFIX,anjuke.com
   - DOMAIN-SUFFIX,fang.com
   - DOMAIN-SUFFIX,sofang.com
-  - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,house365.com
+  - DOMAIN-SUFFIX,mayi.com
   
   # ========================================
-  # 33. 汽车相关
+  # 34. 汽车相关
   # ========================================
   - DOMAIN-SUFFIX,autohome.com.cn
   - DOMAIN-SUFFIX,autohomeimg.com
@@ -535,15 +666,43 @@ payload:
   - DOMAIN-SUFFIX,pcauto.com.cn
   - DOMAIN-SUFFIX,mycars.qq.com
   - DOMAIN-SUFFIX,didi.com
+  - DOMAIN-SUFFIX,didichuxing.com
   - DOMAIN-SUFFIX,uber.com.cn
   - DOMAIN-SUFFIX,guazi.com
   - DOMAIN-SUFFIX,guazistatic.com
+  - DOMAIN-SUFFIX,xchuxing.com
   
   # ========================================
-  # 34. 云储存 & 协作
+  # 35. 社交 & 社区
   # ========================================
-  - DOMAIN-SUFFIX,115.com
-  - DOMAIN-SUFFIX,115img.com
+  - DOMAIN-SUFFIX,douban.com
+  - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,douban.fm
+  - DOMAIN-SUFFIX,douban.tv
+  - DOMAIN-SUFFIX,xiaokaxiu.com
+  - DOMAIN-SUFFIX,xiaohuaapp.com
+  - DOMAIN-SUFFIX,duyunapp.com
+  
+  # ========================================
+  # 36. 游戏平台 & 游戏相关
+  # ========================================
+  - DOMAIN-SUFFIX,tgame.qq.com
+  - DOMAIN-SUFFIX,moba.qq.com
+  - DOMAIN-SUFFIX,dnf.qq.com
+  - DOMAIN-SUFFIX,qqgame.qq.com
+  - DOMAIN-SUFFIX,webcdn.qq.com
+  - DOMAIN-SUFFIX,tencentmusic.com
+  - DOMAIN-SUFFIX,game.qq.com
+  - DOMAIN-SUFFIX,uc.qq.com
+  - DOMAIN-SUFFIX,glgame.qq.com
+  - DOMAIN-SUFFIX,gameim.qq.com
+  - DOMAIN-SUFFIX,danji.com
+  - DOMAIN-SUFFIX,muzhiwan.com
+  - DOMAIN-SUFFIX,9377.com
+  
+  # ========================================
+  # 37. 云服务 & 协作
+  # ========================================
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,qiniu.com
@@ -552,11 +711,13 @@ payload:
   - DOMAIN-SUFFIX,baidupcs.com
   - DOMAIN-SUFFIX,teambition.net
   - DOMAIN-SUFFIX,teambition.com
+  - DOMAIN-SUFFIX,tencent.cloud
+  - DOMAIN-SUFFIX,qcloud.com
+  - DOMAIN-SUFFIX,cloudflare.com
   
   # ========================================
-  # 35. 其他常用国内应用
+  # 38. 运营商 & 基础服务
   # ========================================
-  - DOMAIN-SUFFIX,chinasoftwarecorp.com
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10000.gd.cn
@@ -585,14 +746,12 @@ payload:
   - DOMAIN-SUFFIX,xl.189.cn
   - DOMAIN-SUFFIX,hainan.189.cn
   - DOMAIN-SUFFIX,hn.189.cn
-  - DOMAIN-SUFFIX,yn.189.cn
   - DOMAIN-SUFFIX,gz.189.cn
   - DOMAIN-SUFFIX,ln.189.cn
   - DOMAIN-SUFFIX,cc189.cn
-  - DOMAIN-SUFFIX,ha189.cn
   
   # ========================================
-  # 36. CDN & 加速服务商
+  # 39. CDN & 加速服务商
   # ========================================
   - DOMAIN-SUFFIX,chinanetcenter.com
   - DOMAIN-SUFFIX,wscdns.com
@@ -607,7 +766,7 @@ payload:
   - DOMAIN-SUFFIX,boscache.com
   
   # ========================================
-  # 37. 广告网络 & 数据分析
+  # 40. 广告网络 & 数据分析
   # ========================================
   - DOMAIN-SUFFIX,tanx.com
   - DOMAIN-SUFFIX,alimama.com
@@ -622,7 +781,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.qq.com
   
   # ========================================
-  # 38. 字体 & 特效相关
+  # 41. 字体 & 特效
   # ========================================
   - DOMAIN-SUFFIX,qiuwen.url.cn
   - DOMAIN-SUFFIX,webfont.qq.com
@@ -632,7 +791,7 @@ payload:
   - DOMAIN-SUFFIX,cdnjs.cloudflare.com
   
   # ========================================
-  # 39. IP段配置（国内主要运营商和应用）
+  # 42. IP段配置（国内主要运营商）
   # ========================================
   # 抖音相关 IP
   - IP-CIDR,110.249.200.0/22
@@ -701,8 +860,16 @@ payload:
   - IP-CIDR,211.131.0.0/16
   - IP-CIDR,211.137.0.0/16
   
+  # 京东相关 IP
+  - IP-CIDR,111.225.0.0/16
+  - IP-CIDR,106.35.0.0/16
+  
+  # 快手相关 IP
+  - IP-CIDR,120.92.0.0/16
+  - IP-CIDR,120.87.0.0/16
+  
   # ========================================
-  # 40. 其他关键字匹配
+  # 43. 其他关键字匹配
   # ========================================
   - DOMAIN-KEYWORD,alicdn
   - DOMAIN-KEYWORD,aliimg
@@ -715,3 +882,6 @@ payload:
   - DOMAIN-KEYWORD,sbscdn
   - DOMAIN-KEYWORD,static
   - DOMAIN-KEYWORD,staticfile
+  - DOMAIN-KEYWORD,img
+  - DOMAIN-KEYWORD,video
+  - DOMAIN-KEYWORD,stream
