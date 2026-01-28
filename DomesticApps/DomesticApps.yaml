@@ -885,3 +885,39 @@ payload:
   - DOMAIN-KEYWORD,img
   - DOMAIN-KEYWORD,video
   - DOMAIN-KEYWORD,stream
+  - DOMAIN-SUFFIX,tracker.m-team.cc
+  - DOMAIN-SUFFIX,tracker.zhuque.in
+  - DOMAIN-SUFFIX,tracker.totheglory.im
+  - DOMAIN-SUFFIX,tracker.pterclub.com
+  - DOMAIN-SUFFIX,tracker.hhanclub.top
+  - DOMAIN-SUFFIX,tracker.hdsky.me
+  - DOMAIN-SUFFIX,tracker.cinefiles.info
+  - DOMAIN-SUFFIX,t.audiences.me
+  - DOMAIN-SUFFIX,t.ubits.club
+  - DOMAIN-SUFFIX,t.hdhome.org
+  - DOMAIN-SUFFIX,t.hddolby.com
+  - DOMAIN-SUFFIX,tracker.cinefiles.info
+  - DOMAIN-SUFFIX,t.audiences.me
+  - DOMAIN-SUFFIX,tracker.qingwa.pro
+  - DOMAIN-SUFFIX,tracker.qingwapt.com
+  - DOMAIN-SUFFIX,tracker.qingwapt.org
+  - DOMAIN-SUFFIX,tracker.hdtime.org
+  - DOMAIN-SUFFIX,tracker.hdarea.club
+  - DOMAIN-SUFFIX,tracker.0ff.cc
+  - DOMAIN-SUFFIX,tracker.rainbowisland.co
+  - DOMAIN-SUFFIX,tracker.ptchdbits.co
+  - DOMAIN-SUFFIX,tracker.qingwa.pro
+  - DOMAIN-SUFFIX,tracker.qingwapt.com
+  - DOMAIN-SUFFIX,tracker.qingwapt.org
+  - DOMAIN-SUFFIX,tracker.hdtime.org
+  - DOMAIN-SUFFIX,tracker.hdarea.club
+  - DOMAIN-SUFFIX,tracker.0ff.cc
+  - DOMAIN-SUFFIX,tracker.rainbowisland.co
+  - DOMAIN-SUFFIX,tracker.ptchdbits.co
+  - DOMAIN-SUFFIX,tracker.qingwa.pro
+  - DOMAIN-SUFFIX,tracker.qingwapt.com
+  - DOMAIN-SUFFIX,tracker.qingwapt.org
+  - DOMAIN-SUFFIX,tracker.hdtime.org
+  - DOMAIN-SUFFIX,tracker.carpt.net
+  - DOMAIN-SUFFIX,tracker.totheglory.im
+  - DOMAIN-SUFFIX,tracker.m-team.cc
