@@ -16,6 +16,7 @@ payload:
   - DOMAIN,update.greasyfork.org
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,emby.as174.de
+  - DOMAIN-SUFFIX,67696769.xyz
   - DOMAIN-SUFFIX,2048.info
   - DOMAIN-SUFFIX,laowangfip372.vip
   - DOMAIN-SUFFIX,sehuatang.net
