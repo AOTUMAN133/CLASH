@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,douyincache.com
   - DOMAIN-SUFFIX,douyin-sign.byteoversea.com
   - DOMAIN-SUFFIX,douyin-secure.byteoversea.com
+  - DOMAIN-SUFFIX,amemv.com
   
   # 抖音商城/小黄车
   - DOMAIN-SUFFIX,shop-ads.com
